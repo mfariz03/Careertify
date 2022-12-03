@@ -1,0 +1,52 @@
+.mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentBox{
+    width: 40%;
+    padding-left: 1em;
+    background-color: bisque;
+}
+.contentBox h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.contentBox p{
+    font-size: 1.2rem;
+    margin: 1em 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(205, 175, 137);
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 2em;
+    background-image: linear-gradient(#fff, #fff);
+    background-origin: border-box;
+    background-clip: border-box, border-box;
+}   
+.readMore{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 5em, 2.2em;
+    text-decoration: none;
+    color: cadetblue;
+
+}
+.imgContainer{
+    width: 100%;
+}
+.imgContainer img{
+    width: 90%;
+    margin:0 auto;
+    display: block;
+
+}
+

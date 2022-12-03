@@ -1,0 +1,66 @@
+.logo {
+    width: 200px;
+    padding: .5em 0;
+}
+:root {
+    --mainColor: #f3e2ed;
+}
+
+header {
+    background-color: var(--mainColor);
+}
+
+.container{
+    width: 95%;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.container-flex {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.list {
+    display: flex;
+}
+.listItem {
+    margin-left: 2em;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.listItem:hover {
+    color: blue;
+    border-bottom: 1.em double #fff;
+}
+
+/* media screen */
+@media screen and (max-width: 768px) { 
+    html {
+        font-size: 13px;
+    }
+
+    .container-flex{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 568px) { 
+    html{
+        font-size: 11px;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    .listItem{
+        margin-top: .2em;
+    }
+}
