@@ -1,0 +1,21 @@
+.img_about {
+    width: 150px;
+  }
+  
+  .container_aboutUs {
+    border: 1px;
+    border-style:solid;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card_text {
+    padding-bottom: 25px;
+  }
+  
+  .icon_about {
+    padding: 15px;
+    /* display: flex;
+    justify-content:left;
+    align-items: center; */
+  }

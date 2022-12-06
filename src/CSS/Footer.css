@@ -3,5 +3,14 @@ footer {
     bottom: 0;
     background-color: #f3e2ed;
     width: 100%;
-    padding: .5em;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.container-footer {
+    flex-direction: column;
 }

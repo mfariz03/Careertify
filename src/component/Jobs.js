@@ -1,9 +1,13 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 const Jobs=()=>{
   return(
-  <>
-    <h1>Jobs PAGE</h1>
+    <>
+    <Card>
+      <Card.Body>This is some text within a card body.</Card.Body>
+    </Card>
     </>
   )
 }

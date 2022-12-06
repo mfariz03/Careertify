@@ -14,8 +14,7 @@ header {
     width: 95%;
     border-radius: 10px;
     margin: 0 auto;
-    max-width: 1200px;
-
+    max-width: 1200px;    
 }
 
 .container-flex {
@@ -23,9 +22,11 @@ header {
     justify-content:left;
     align-items: center;
 }
+
 .list {
     display: flex;
 }
+
 .listItem {
     margin-left: 2em;
     color: black;
