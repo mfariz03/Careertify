@@ -1,0 +1,22 @@
+.img_about {
+    width: 150px;
+  }
+  
+  .container_jobs {
+    border: 1px;
+    border-style:solid;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 57px;
+  }
+  
+  .card_text {
+    padding-bottom: 25px;
+  }
+
+  .Container_job{
+    display: flex;
+    
+  }
+  
