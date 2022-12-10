@@ -10,7 +10,7 @@ const About = () => {
             <div className="mainSection">
                 <div className="ContentBox">
                     <h1> About Us</h1>
-                    <p> Careertify apaan dah tu ye aaaaaaaaaaaaaaaaaaaaan Careertify merupakan suatu platform penyedia informasi lowongan kerja yang membantu masyarakat untuk menerima kesempatan kerja yang tepat.</p>
+                    <p> Careertify merupakan suatu platform penyedia informasi lowongan kerja yang membantu masyarakat untuk menerima kesempatan kerja yang tepat.</p>
                     <div className="btnBox">
                         <div className="btn">
                             <Link to='/AboutUs' className="ReadMore">Read More</Link>
