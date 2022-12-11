@@ -41,7 +41,6 @@ header {
 
 .listItem:hover {
     color: blue;
-    border-bottom: 1.em double #fff;
 }
 
 /* media screen */
