@@ -17,7 +17,7 @@
 C22-136 is a group that was established to make a final project of the MSIB (Certified Independent Study and Internship) Batch 3 activity at Dicoding. The project we created is a website to find job listings in Indonesia, we named it "Careertify"
 
 <p align="center">
-    <img src='https://github.com/mfariz03/Careertify/issues/1#issue-1489797733'/>
+    <img src='https://raw.githubusercontent.com/mfariz03/Careertify/public/logo_kecil.jpg'/>
 </p>
 
 ## Link Website 🔗
