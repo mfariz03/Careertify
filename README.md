@@ -36,7 +36,7 @@ C22-136 is a group that was established to make a final project of the MSIB (Cer
 - `npm`
 
 ## Framework We Use
-- `Bootstrap 5` [Link](https://react-bootstrap.netlify.app/)
+- `React-Bootstrap v2.7.0(Bootstrap 5.2)` [Link](https://react-bootstrap.netlify.app/)
 
 ## Resource
 - `React-Icon` [Link](https://react-icons.github.io/react-icons/)
