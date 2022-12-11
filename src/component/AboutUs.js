@@ -15,10 +15,10 @@ const AboutUs = () => {
                 <Card.Title>Contact-Us</Card.Title>
                 <Card.Text className="card_text">careertify@gmail.com</Card.Text>
                 <Stack className="icon_about" direction="horizontal" gap={4}>
-                    <Button href="https://web.facebook.com/" target="blank"> <BsFacebook className="subIcon" /></Button>
-                    <Button href="https://twitter.com/" target="blank" > <BsTwitter className="subIcon" /></Button>
-                    <Button href="https://github.com/mfariz03/Careertify" target="blank" > <BsGithub className="subIcon" /></Button>
-                    <Button href="https://www.instagram.com/" target="blank" > <BsInstagram className="subIcon" /></Button>
+                    <Button href="https://web.facebook.com/" target="blank"> <BsFacebook className="subIconfb" /></Button>
+                    <Button href="https://twitter.com/" target="blank" > <BsTwitter className="subIcontwt" /></Button>
+                    <Button href="https://github.com/mfariz03/Careertify" target="blank" > <BsGithub className="subIcongithub" /></Button>
+                    <Button href="https://www.instagram.com/" target="blank" > <BsInstagram className="subIconig" /></Button>
                 </Stack>
             </Card.Body>
         </Card>
