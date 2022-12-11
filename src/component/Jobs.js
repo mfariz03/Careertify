@@ -1,5 +1,4 @@
 import React from "react";
-import {dbjobs, getAlljobs} from "../utils/db";
 import PropTypes from "prop-types";
 import Searchjob from "./Search";
 import {useSearchParams } from "react-router-dom";
