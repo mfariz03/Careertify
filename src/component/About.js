@@ -10,7 +10,7 @@ const About = () => {
             <div className="mainSection">
                 <div className="ContentBox">
                     <h1> About Us</h1>
-                    <p> Careertify merupakan suatu platform penyedia informasi lowongan kerja yang membantu masyarakat untuk menerima kesempatan kerja yang tepat.</p>
+                    <p> Careertify menawarkan berbagai pilihan terbaik dari berbagi macam pekerjaan mulai dari program internship, junior level hingga senior level dan dengan careertify ini kita dapat membangun koneksi dengan siapapun.</p>
                     <div className="btnBox">
                         <div className="btn">
                             <Link to='/AboutUs' className="ReadMore">Read More</Link>

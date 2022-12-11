@@ -1,9 +1,9 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import "../CSS/JobsList.css"
+import "../CSS/CardJobs.css"
 
-function JobsList ({dbjobs}) {
+function CardJobs ({dbjobs}) {
     return (
         dbjobs.length > 0 ?
         <div className="row m-4">
@@ -18,7 +18,6 @@ function JobsList ({dbjobs}) {
                 <p>Lokasi : {pekerjaan.location}</p>
               </Card.Text>
               <Button variant="primary" size="sm" href={pekerjaan.detail} target="blank"><h6 className="btn-jobs">Detail Jobs</h6></Button>
-                
             </Card.Body>
           </Card>
         </div>
@@ -28,4 +27,4 @@ function JobsList ({dbjobs}) {
     )
 }
 
-export default JobsList;
+export default CardJobs;

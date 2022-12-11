@@ -1,9 +1,9 @@
 import React from "react";
-import {dbjobs, getAlljobs} from "../utils/db";
+import {getAlljobs} from "../utils/db";
 import PropTypes from "prop-types";
 import Searchjob from "./Search";
 import {useSearchParams } from "react-router-dom";
-import JobsList from "./JobsList";
+import CardJobs from "./CardJobs";
 
 
 function JobsWrapper() {
@@ -49,7 +49,7 @@ class Jobs extends React.Component {
     return(
     <div>
       <Searchjob keyword={this.state.keyword} keywordChange={this.onKeywordChangeHandler} />
-      <JobsList dbjobs={dbjobs} />
+      <CardJobs dbjobs={dbjobs} />
     </div> 
     )
   }
