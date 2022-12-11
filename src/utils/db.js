@@ -1,23 +1,4 @@
-{
-"categories" : [
-    {
-        "id": 1,
-        "nama": "web developer"
-
-    },
-    {
-        "id": 2,
-        "nama": "digital marketing"
-
-    },
-    {
-        "id": 3,
-        "nama": "lainnya"
-
-    }
-],
-"pekerjaans" : [
-    
+let dbjobs = [
     {
         "job": "Web Developer",
         "company": "detikcom",
@@ -319,8 +300,10 @@
             "nama": "web developer"
         }
     }
-],
-"history" : [],
-"lamarans" : []
+];
 
-}
+function getAlljobs (){
+    return dbjobs;
+  }
+
+export  {dbjobs, getAlljobs}
